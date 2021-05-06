@@ -1,0 +1,78 @@
+/* Card Category */
+
+.card-category {
+	color: white;
+	height: 200px;
+	width: 300px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center; /* aligns the DIRECT child elements vertically */
+	justify-content: center; /* aligns the DIRECT child elements horizontally */
+	border-radius: 4px;
+	box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+	text-shadow: 10px 15px 20px rgba(0, 0, 0, 0.9);
+}
+
+.card-category h2 {
+	margin: 0;
+	font-size: 30px;
+}
+
+/* Card Product */
+
+.card-product {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	width: 500px;
+}
+
+.card-product img {
+	width: 150px;
+	margin-right: 16px;
+}
+
+.card-product h2, .card-product p {
+	margin: 0;
+}
+
+/* Card Trip */
+
+.card-trip {
+	background-color: white;
+	width: 400px
+}
+
+.card-trip img {
+	width: 100%; /* takes the width of the parent */
+}
+
+.card-trip-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 24px;
+}
+
+.card-trip h2, .card-trip p {
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+.btn {
+	text-decoration: none; /* removes underline*/
+	padding: 24px 32px;
+	font-weight: bold;
+	border-radius: 4px;
+	transition: 0.3s;
+}
+
+.btn-red {
+	background-color: #fd1015;
+	color: white;
+}
+
+.btn-red:hover {
+	background-color: green;
+	opacity: 0.5;
+	/*padding: 32px 40px;*/
+}
+
+.btn-transparent {
+	/*background-color: transparent;*/
+	color: #fd1015;
+	border: 2px solid #fd1015;
+	box-shadow: 2px 10px 15px rgba(0,0,0,0.2);
+}
+
+.btn-transparent:hover {
+	border-color: green;
+	color: green;
+	box-shadow: 5px 15px 20px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+.banner {
+	/* background-image: url('....'); NOT reusable, becasue the image will be the same everywhere */
+	color: white;
+	padding: 150px 0;
+}
+
+.banner h1 {
+	margin-top: 0;
+}
